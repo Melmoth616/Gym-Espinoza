@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Espinoza</title>
+    <link rel="stylesheet" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css"/>
+    <link rel="icon" href="img/fitness-and-gym-logo-free-png.webp">
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+</head>
+<body>
+    <nav class="bg-gray-950 p-2">
+        <div class="container mt-1 flex px-6 lg:px-0">
+            <div class="flex flex-grow mx-auto items-center">
+                <img class="m-0 h-10 w-50 " src="img/fitness-and-gym-logo-free-png.webp">
+            </div>
+            <div class="flex lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" onclick="openMenu();"/>
+                </svg>                  
+            </div> 
+            <div id="menu" class="lg:flex hidden flex-grow justify-between absolute lg:relative lg:top-0 top-14 left-0 
+            bg-gray-950 w-full lg:w-auto lg:items-center py-14 lg:py-0 px-6 sm:px-24 lg:px-0">
+                <div class="flex flex-col lg:flex-row mb-6 lg:mb-0 ">
+                    <a href="index.html" class="text-white lg:mr-6 mb-8 lg:mb-0">Inicio</a>
+                    <a href="#" class="text-white lg:mr-6 mb-8 lg:mb-0">Coach</a>
+                    <a href="about.html" class="text-white lg:mr-6 mb-8 lg:mb-0">Sobre Nosotros</a>
+                    <a href="eventos.html" class="text-white">Eventos</a>
+                </div>
+                <div class="flex flex-col lg:flex-row text-center">
+                    <a href="#" class="text-white border border-white py-2.5 px-5 rounded-md hover\:text-orange-700 hover:bg-orange-700
+                    transition duration-500 ease-in-out lg:mr-4 mb-8 lg:mb-0">Iniciar Sesión</a>
+    
+                    <a href="#" class="text-white bg-yellow-700 border border-yellow-700 py-2.5 px-5 
+                    rounded-md hover:bg-orange-800 hover\:border-orange-800 transition duration-500 ease-in-out" >Regístrate</a>
+                </div>
+            </div> 
+        </div>     
+</nav>
+
+  <!-- Trainer Section -->
+  <section class="py-24 ">
+    <div class="container mx-auto px-4">
+    <div class="flex flex-wrap justify-center text-center mb-24">
+        <div class="w-full lg:w-6/12 px-4">
+        <h2 class="text-4xl font-semibold uppercase">Conoce a nuestros entrenadores</h2>
+        <p class="text-lg leading-relaxed m-4 ">
+            Todos cuentan con un titulo y especializacion en aquella area que han sido asignados.
+        </p>
+        </div>
+    </div>
+
+      <!-- Trainer Card Wrapper -->
+      <div class="flex flex-wrap p-5">
+          <!-- Card 1 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+              <div class="px-6">
+                  <img
+                      alt="..."
+                      src="https://scontent.fmec2-1.fna.fbcdn.net/v/t1.6435-9/98124712_2715347992032661_2224683563431755776_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=be3454&_nc_ohc=w2xpOYBJy8AAX-UtPfn&_nc_ht=scontent.fmec2-1.fna&oh=00_AfCOaqeWDwLkEpvo8uFd2_u-V4HoGPABbB2DMkTvCEILtg&oe=65A746BD"
+                      class="shadow-lg rounded-md max-w-full mx-auto"
+                      style="max-width: 200px;"
+                  />
+                  <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Wilman Vite</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                          Area de Crossfit
+                      </p>
+                      <div class="mt-6">
+
+                          <button
+                              class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-facebook-f"></i>
+                          </button>
+                          <button
+                              class="bg-red-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-instagram"></i>
+                          </button>
+
+                          <button
+                              class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-twitter"></i>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-up">
+              <div class="px-6">
+                  <img
+                      alt="..."
+                      src="https://scontent.fmec2-1.fna.fbcdn.net/v/t1.18169-9/397843_263759500358330_1892945258_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=4dc865&_nc_ohc=f5hBq2L1sHkAX-ZMbPf&_nc_ht=scontent.fmec2-1.fna&oh=00_AfBqsecziNHdciutA3oeRkVBWxtl0CZv4ZWbgYF3wHHmdA&oe=65A76748"
+                      class="shadow-lg rounded max-w-full mx-auto"
+                      style="max-width: 320px; max-height: 220px;"
+                  />
+                  <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold">Lucho Porras</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                          Area de Bailoterapia
+                      </p>
+                      <div class="mt-6">
+
+                          <button
+                              class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-facebook-f"></i>
+                          </button>
+                          <button
+                              class="bg-red-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-instagram"></i>
+                          </button>
+
+                          <button
+                              class="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-twitter"></i>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-left">
+              <div class="px-6">
+                  <img
+                      alt="..."
+                      src="https://scontent.fmec2-1.fna.fbcdn.net/v/t1.18169-9/10641076_487546228052026_7016133975884108574_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7a1959&_nc_ohc=23nReK-tD5EAX8-dLr-&_nc_ht=scontent.fmec2-1.fna&oh=00_AfD7CeIto0CBRZUqSo-LykWE2xgFT1Yz0XckoXcku09BBQ&oe=65A75612"
+                      class="shadow-lg rounded max-w-full mx-auto"
+                      style="max-width: 200px;"
+                  />
+                  <div class="pt-6 text-center">
+                      <h5 class="text-xl font-bold ">Merwin Cumbico</h5>
+                      <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                          Area de Defensa Personal
+                      </p>
+                      <div class="mt-6">
+                          <button
+                              class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-facebook-f"></i>
+                          </button>
+                          <button
+                              class="bg-red-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-instagram"></i>
+                          </button>
+                          <button
+                              class="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                              type="button"
+                          >
+                              <i class="fab fa-twitter"></i>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </section>
+<!-- Footer -->
+<footer class="relative bg-gray-300 pt-8 pb-6">
+  <div
+      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px; transform: translateZ(0px);"
+  >
+      <svg
+      class="absolute bottom-0 overflow-hidden"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
+      version="1.1"
+      viewBox="0 0 2560 100"
+      x="0"
+      y="0"
+      >
+      <polygon
+          class="text-gray-300 fill-current"
+          points="2560 0 2560 100 0 100"
+      ></polygon>
+      </svg>
+  </div>
+  <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+      <div class="w-full lg:w-6/12 px-4 mb-12">
+          <h4 class="text-3xl font-semibold">Siguenos en nuestras redes sociales</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Encuentranos en todas nuestras plataformas digitales.
+          </h5>
+          <div class="mt-6">
+
+          <button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button"
+          >
+              <i class="flex fab fa-facebook-square"></i>
+          </button>
+          <button
+              class="bg-white text-red-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button"
+          >
+              <i class="flex fab fa-instagram"></i>
+          </button>
+          <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button"
+          >
+              <i class="flex fab fa-twitter"></i>
+          </button>
+          </div>
+      </div>
+      <hr class="my-6 border-gray-400" />
+      <div
+      class="flex flex-wrap items-center md:justify-between justify-center"
+      >
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+          Copyright © <span id="year"></span> Gym
+          <a
+              href="#"
+              class="text-gray-600 hover:text-gray-900"
+              >Espinoza </a
+          >.
+          </div>
+      </div>
+      </div>
+  </div>
+</footer>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+
+<script src="./js/script.js"> </script>
+</html>
